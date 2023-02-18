@@ -13,6 +13,7 @@ public class EmployeeApplication {
 		System.out.println(" ");
 		System.out.println("Employee Project");
 		System.out.println(" ");
+		System.out.println("Start");
 
 	}
 

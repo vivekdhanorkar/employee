@@ -127,7 +127,6 @@ public class EmployeeService {
 		 this.adminpassword = adminpassword;
 
 		if (adminusername.equals("admin") && adminpassword.equals("password123") ){
-			System.out.println("Welcome ");
 			return (List<Employee>) er.findAll();
 		}else{
 			throw new IllegalAccessException("Invalid admin username and password");
